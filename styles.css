@@ -163,3 +163,29 @@ form{
     }
 }
 
+.input-field {
+    position: relative;
+    margin: 10px 0;
+    font:bold;
+    margin-left:10px;
+  }
+  
+  .input-field i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font:bold;
+    transform: translateY(-50%);
+    color: #555;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+ 
+    font-size: 16px;
+  }
+  
